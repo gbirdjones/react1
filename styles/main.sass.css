@@ -1,0 +1,93 @@
+.illuminate {
+  font-weight: bold;
+  font-size: 2em; }
+
+span {
+  font-size: 2em; }
+
+.bindingDiv {
+  padding: 2em 3em;
+  border: 8px dashed gray;
+  display: inline-block;
+  width: 36%;
+  margin: 0 auto; }
+
+.forEachDiv {
+  width: 100%;
+  margin: 2em 0;
+  color: #31462E; }
+
+h1 {
+  font-weight: lighter;
+  font-size: 2.2em;
+  margin-bottom: 0; }
+
+hr {
+  margin: 0 0; }
+
+.formDiv {
+  border: 8px dashed gray;
+  width: 36%;
+  padding: 3em;
+  padding-bottom: 0;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0 auto; }
+
+.inputForm {
+  width: 100%;
+  height: 2em; }
+
+h3 {
+  font-size: 2em; }
+
+.formHeader {
+  font-size: 1.8em; }
+
+.textarea {
+  height: 8em;
+  width: 100%; }
+
+.submit {
+  float: right;
+  font-size: 2em;
+  background: green;
+  color: white;
+  padding: 0.2em 0.3em;
+  margin: 0.2em 0em; }
+
+.nawElements {
+  display: inline-block;
+  padding: 1em 0.3em; }
+
+#logoText {
+  display: inline-block;
+  font-size: 2em; }
+
+#logo {
+  height: 3em;
+  width: 3em; }
+
+#innerNav {
+  text-align: center; }
+
+#logoCont {
+  display: inline-block; }
+
+.tips {
+  font-size: 1.2em; }
+
+@media only screen and (max-width: 480px) {
+  .bindingDiv {
+    display: block;
+    margin: 0 auto; }
+  .formDiv {
+    display: block;
+    margin: 0 auto; }
+  #logoCont {
+    display: block; }
+  .divAlign {
+    text-align: center; } }
+
+.divAlign {
+  display: inline; }
